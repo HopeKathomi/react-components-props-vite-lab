@@ -2,9 +2,7 @@
 
 const Header = (name) => {
   return (
-    <>
-    <h1>{name.about}</h1>
-    </>
+    <h1>{name.about}</h1> 
   )
 }
 
