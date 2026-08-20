@@ -1,8 +1,12 @@
 // import React from 'react'
 
 const Header = (name) => {
+  console.log("Name: ", name)
   return (
-    <h1>{name.about}</h1> 
+    <header>
+      <h1>{name.about}</h1>
+    </header>
+     
   )
 }
 
